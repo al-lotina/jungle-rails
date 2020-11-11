@@ -1,7 +1,6 @@
 class ProductsController < ApplicationController
 
   def index
-    @msg = 'look here'
     @products = Product.all.order(created_at: :desc)
   end
 
