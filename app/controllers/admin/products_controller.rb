@@ -1,6 +1,9 @@
 class Admin::ProductsController < ApplicationController
   http_basic_authenticate_with name: "Jungle", password: "book" # did not work with :name => ENV['NAME']
   
+  # This will force user's to login before they can see the actions in this controller.
+  # before_filter :authorize or before_action
+
   def index
     @products = Product.order(id: :desc).all
   end
