@@ -28,6 +28,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["Home Page"](https://raw.githubusercontent.com/al-lotina/jungle-rails/master/docs/home-page.png)
+!["My Cart page"](https://raw.githubusercontent.com/al-lotina/jungle-rails/master/docs/cart.png)
+!["New Product page for Admin users only"](https://raw.githubusercontent.com/al-lotina/jungle-rails/master/docs/admin-new-product.png)
 
